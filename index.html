@@ -26,18 +26,18 @@
                 <h1 class="fs-5"><strong> 貓咪西餐廳</strong>-後台管理</h1>
             </div>
 
-            <div class="overflow-auto mt-3">
+            <ul class="overflow-auto mt-3 list-unstyled">
 
-                <div>
+                <li>
                     <a class="sidebar-link" href="#">
                         <div class="px-4">
                             <i class="bi bi-house me-2"></i>
                             首頁
                         </div>
                     </a>
-                </div>
+                </li>
 
-                <div>
+                <li>
                     <a class="sidebar-link " data-bs-toggle="collapse" href="#menu-order" role="button"
                         aria-expanded="false" aria-controls="menu-order">
                         <div class="px-4 d-flex justify-content-between">
@@ -46,29 +46,25 @@
                             <i class="bi bi-caret-down ms-auto"></i>
                         </div>
                     </a>
-                    <div class="collapse" id="menu-order">
-                        <a class="sidebar-link d-block" href="#order-list">
-                            <div class="px-5">
-                                訂單列表
-                            </div>
-                        </a>
-                        <a class="sidebar-link d-block" href="#list-example">
-                            <div class="px-5">
+                    <ul class="collapse list-unstyled" id="menu-order">
+                        <li><a class="sidebar-link d-block px-5" href="#order-list">
+                                訂單列表 </a>
+                        </li>
+                        <li> <a class="sidebar-link d-block px-5" href="#list-example">
                                 單一訂單細節
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                            </a></li>
+                    </ul>
+                </li>
 
-                <div>
+                <li>
                     <a class="sidebar-link " href="#">
                         <div class="px-4">
                             <i class="bi bi-list-ul me-2"></i></i>
                             參考資料
                         </div>
                     </a>
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <a href="#" class="mt-auto sidebar-link ">
                 <div class="px-4">
@@ -570,7 +566,7 @@
                                         <button type="button" class="btn btn-outline-secondary w-100">退款</button>
                                     </div>
                                     <div class="col">
-                                        退還用戶款項
+                                        <p>退還用戶款項</p>
                                     </div>
                                 </div>
                                 <div class="row align-items-center mb-3">
@@ -578,7 +574,7 @@
                                         <button type="button" class="btn btn-outline-secondary w-100">折讓</button>
                                     </div>
                                     <div class="col">
-                                        針對已開立的訂單退回部分款項
+                                        <p>針對已開立的訂單退回部分款項</p>
                                     </div>
                                 </div>
                                 <div class="row align-items-center">
@@ -586,7 +582,7 @@
                                         <button type="button" class="btn btn-outline-danger w-100">刪除訂單</button>
                                     </div>
                                     <div class="col">
-                                        將訂單刪除，並移除相關訂單資訊
+                                        <p> 將訂單刪除，並移除相關訂單資訊</p>
                                     </div>
                                 </div>
                             </div>
